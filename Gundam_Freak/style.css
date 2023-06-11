@@ -1,0 +1,521 @@
+body{
+    background-color: #003049;
+}
+
+h1{
+    color:#EAE2B7;
+}
+
+ul{
+    list-style-type:none;
+}
+
+li{
+    display:inline;
+    padding: 30px;
+    font-size: 20px;
+}
+
+h2{
+    color:#EAE2B7;
+}
+
+footer{
+    background-color:#F77F00 ;
+    text-align: center;
+}
+
+h3{
+    color:white;
+}
+
+/*--Dropdown Nav Bar--*/
+.navbar{
+    overflow: hidden;
+    background-color: #F77F00;
+}
+
+.navbar a {
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: red;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-right{
+    float:right;
+}
+/*--------*/
+
+
+
+/*This is for the Home page*/
+
+#GundamOfTheDay{
+    display:flex;
+    gap:20px;
+}
+
+#Image{
+   background-color: #FCBF49;
+   display:flex;
+   width: 55%;
+}
+
+#Gun1{
+    padding:10px;
+    width: 294px;
+    height:440px;
+}
+
+#IMTEXT{
+    font-size: 20px;
+}
+
+#Gif{
+    text-align: center;
+    background-color:#FCBF49;
+    align-self: flex-end;
+    margin-left: auto;
+    width:45%;
+}
+
+#GifGundam{
+    
+    padding:10px;
+    width:300px;
+    
+}
+
+#Tip{
+    background-color: #D62828;
+    width:55%;  
+}
+
+#Text{
+    color: white;
+    font-size: 20px;   
+}
+
+.IndexF{
+    background-color: #F77F00;
+    text-align: center;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+#Poll{
+    background-color: #D62828;
+    width:50%;
+    margin: auto;
+    padding:10px;
+}
+
+/*This is the about page*/
+#About{
+    text-align: center;
+}
+
+#AboutBox{
+    background-color: #FCBF49;
+    width:50%;
+    margin: auto;
+    padding:10px;
+    text-align: center;
+}
+
+#TextA{
+    text-align: center; 
+    font-size: 25px;
+}
+
+#MyGundams{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.F2{
+    background-color: #F77F00;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+}
+
+/*History page*/
+#History{
+  text-align: center;  
+}
+
+#HistoryText{
+    background-color: #FCBF49;
+    text-align: center;
+    width:50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.HText{
+    text-align: center;
+    font-size: 25px;
+}
+
+#Movie{
+    padding:10px;
+    width: 294px;
+    height:440px;
+}
+
+
+/*This is the Gundam Page*/
+
+#GundamBox{
+    
+    display:flex;
+    gap:30px;
+}
+
+#ScaleBox{
+    background-color: #FCBF49;
+    width:65%;
+    padding:10px;
+}
+
+#Scale{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#ScaleText{
+    font-size: 25px;
+}
+
+#TypeBox{
+    background-color: #D62828;
+    width:35%;
+    padding:10px;
+    text-align: center;
+}
+
+.Who{
+    list-style: circle;
+
+}
+
+.Who3{
+    display: list-item;
+}
+
+.WhiteLinks{
+    color:white;
+}
+
+#Gif4Gundam{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+
+
+/*Tool Page*/
+
+#ToolBox{
+    background-color: #FCBF49;
+    width: 55%;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+#ToolText{
+    font-size: 20px;;
+}
+
+#SetOfTools{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Entry Grade Page*/
+#EntBox{
+    background-color: #FCBF49;
+    width:50%;
+    margin: auto;
+    padding:10px;
+}
+
+#BackTo{
+    text-align: center;
+}
+
+.CenterP{
+    text-align: center;
+
+}
+
+/*Placeholder_gundam*/
+
+#BigBox{
+    display: flex;
+}
+
+#BigBox2{
+    background-color: #D62828;
+    margin: auto;
+    width: 65%;  
+}
+
+#BigBox2Image{
+    display: flex;
+    gap:30px;
+}
+
+#BBI{
+    padding:10px;
+    width: 294px;
+    height:440px;
+
+}
+
+.BBLarge{
+    color: white;
+    font-size: 25px;
+}
+
+.BBLarge2{
+    color: white;
+    font-size: 25px;
+   padding-left: 10px;
+}
+
+/*Rating system for Website , stil PlaceHolder page*/
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+/*-----END OF STAR RATING CSS-----*/
+
+
+
+/*---Sign Up Page--*/
+
+.Center{
+    background-color: #FCBF49;
+    width:50%;
+    margin: auto;
+    padding:10px;
+    text-align: center;
+
+}
+
+.SLText{
+    color:white;
+}
+
+#SignUpImage{
+    width: 400px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/*---LogIn Page--*/
+#LogInImage{
+    width: 200px;
+}
+
+
+/*--Profile-Page--*/
+
+#ProfileBox{
+    background-color: #FCBF49;
+    width: 50%;
+    margin: auto;
+    padding:10px;
+
+}
+
+#UploadDescription{
+    overflow-wrap: break-word;
+}
+
+/*--LogOut--*/
+#LogOutButton{
+    text-align:center;
+}
+
+/*Photo Gallery*/
+
+.PhotoBox{
+    width:50%;
+    margin: auto;
+    padding:10px;
+    text-align: center;
+}
+
+.ImageBoxes{
+    background-color: #D62828;
+    color: white;
+}
+
+.ImagePhoto{
+   width: 294px;
+   height:340px;
+    
+}
+
+.Right{
+    float:right;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+  
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*---Admin Page ---*/
+
+.AdminLogIn{
+    width: 294px;
+    height: 334px;
+}
+
+#AdminBox{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    padding:10px;
+}
+
+#CenterTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+
+
